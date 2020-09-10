@@ -46,6 +46,25 @@
 
 /* Banner Area */ 
 
+.btn1{
+    text-decoration: none;
+    color: white;
+}
+.btn1:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.btn2{
+    text-decoration: none;
+    color: black;
+}
+.btn2:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
 .site-main .site-banner {
     background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
 }
