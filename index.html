@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="./css/responsive.css">
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-toggle="50">
         <!-- <button type="button" class="btn btn-success">Push it!</button> -->
 
     <!--  ======================= Start Header Area ============================== -->
@@ -44,17 +44,18 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
+                        <!-- <ul class="nav nav-pills"> -->
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
+                            <a class="nav-link" href="#banner">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">services</a>
+                            <a class="nav-link" href="#about">services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">portfolio</a>
+                            <a class="nav-link" href="#brand">portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">pages</a>
@@ -78,7 +79,7 @@
 
         <!--  ======================= Start Banner Area =======================  -->
         <section class="site-banner">
-            <div class="container">
+            <div id="banner" class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
                         <h3 class="title-text">Hey</h3>
@@ -96,12 +97,164 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="img/banner-image3.png" alt="banner-img" class="img-fluid">
+                        <img src="img/banner.png" alt="banner-img" class="img-fluid">
                     </div>
                 </div>
             </div>
         </section>
         <!--  ======================= End Banner Area =======================  -->
 
+        
+        <!--  ========================= About Area ==========================  -->
+
+        <section class="about-area">
+            <div id="about" class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/banner-image.png" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                I am Atiq Israk Niloy. I am graduate of Computer Science and 
+                                Engineering from Southeast University. 
+                                I have been developing websites for last 3 years.
+                            </p>
+                            <p class="para">
+                                I have worked on designing website and software UI designing and testing 
+                                them for compatibility and performance optimization. I also have been 
+                                working on site optimization algorithms.
+                            </p>
+                        </div>
+                        <button type="button" class="btn button primary-button text-uppercase">
+                           <a class="btn1" href="https://drive.google.com/file/d/1CIArd0MmlFg6cHgywgVKDEhsUvYafNUP/view?usp=sharing">Download cv</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ========================= End About Area ==========================  -->
+
+        <!--  ======================== Brand Area ==============================  -->
+
+        <section class="brand-area">
+            <div id="brand" class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="first-row row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo1.png" alt="Brand-1 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo2.png" alt="Brand-2 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo3.png" alt="Brand-3 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo4.png" alt="Brand-4">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo5.png" alt="Brand-5 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo6.png" alt="Brand-6">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo7.png" alt="Brand-7 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo8.png" alt="Brand-8 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/logo9.png" alt="Brand-9">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="experience-area">
+                            <div class="d-flex flex-row years-area">
+                                <h2 class="p-3 years">3</h2>
+                                <h2>
+                                    <span>Years</span>
+                                    <span>Experience</span>
+                                    <span>Working</span>
+                                </h2>
+                            </div>
+                            <div class="d-flex flex-row flex-wrap call-area">
+                                <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
+                                <div class="call-now">
+                                    <a href="#" class="text-uppercase h4 font-roboto">Call Now</a>
+                                    <span class="font-roboto py-2">(+880)-170-189-3882</span>
+                                </div>
+                            </div>
+                            <div class="bg-panel"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================== End Brand Area ==============================  -->
+
+</main>
+<!--  ======================= End Main Area ================================ -->
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="">
+            <div class="site-logo text-center py-4">
+                <a href="#"><img height="50px" width="auto" src="./img/logo.png" alt="logo"></a>
+            </div>
+            <div class="social text-center">
+                <h5 class="text-uppercase">Follow me</h5>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="copyrights text-center">
+                <p class="para">
+                    Copyright &#169;2020 All rights reserved | Made with &#x1F9E1; by
+                    <a href="http://atiqisrak.netlify.app"><span style="color: var(--primary-color);">Atiq Israk</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>

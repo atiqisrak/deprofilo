@@ -3,6 +3,10 @@ $(document).ready(function () {
 
     let $btns = $('.project-area .button-group button');
 
+// Playground Begins
+
+
+// Playground ends
 
     $btns.click(function (e) {
 
