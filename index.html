@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <title>Portfolio Website</title>
+        <link rel="shortcut icon" type="image/png" href="/img/icon.png">
 
 
 <!--  Bootstrap css file  -->
@@ -27,7 +28,6 @@
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-toggle="50">
-        <!-- <button type="button" class="btn btn-success">Push it!</button> -->
 
     <!--  ======================= Start Header Area ============================== -->
 
@@ -49,12 +49,12 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#banner">about</a>
+                            <a class="nav-link" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">services</a>
+                            <a class="nav-link" href="#service">services</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#brand">portfolio</a>
                         </li>
                         <li class="nav-item">
@@ -62,9 +62,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">blog</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" href="#contact">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -223,6 +223,125 @@
 
         <!--  ======================== End Brand Area ==============================  -->
 
+        <!--  ====================== Start Services Area =============================  -->
+
+        <section class="services-area">
+            <div id="service" class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text">Services Offers</h1>
+                        <p class="para">
+                            For last 2 years I've been professionally working on projects and web development.
+                             I assure my quality of work and delivery in time. Here are some of the services I provide.
+                        </p>
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s1.png" alt="Services-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Wp developer</h5>
+                                    <p class="card-text text-secondary">
+                                        &#10003; Wordpress website creation <br>
+                                        &#10003; Banners and blog pages <br>
+                                        &#10003; Plugins <br>
+                                        &#10003; Website optimization
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s2.png" alt="Services-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                                    <p class="card-text text-secondary">
+                                        &#10003; Website UI design <br>
+                                        &#10003; Website UX research <br>
+                                        &#10003; Responsive design
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s3.png" alt="Services-3">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                                    <p class="card-text text-secondary">
+                                        &#10003; Website domain and hosting <br>
+                                        &#10003; Website creation <br>
+                                        &#10003; Custom web pages <br>
+                                        &#10003; Speed optimization
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/s4.png" alt="Services-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">seo optimize</h5>
+                                    <p class="card-text text-secondary">
+                                        &#10003; Boosting <br>
+                                        &#10003; Better search results
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ====================== End Services Area =============================  -->
+
+
+        <section>
+        <div class="row no-gutters block-9" id="contact">
+            <div class="col-md-5 order-md-last d-flex">
+              <form action="#" class="bg-light p-4 p-md-5 contact-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                </div>
+              </form>
+            
+            </div>
+  
+            <div class="col-md-7 d-flex">
+                <div class="img">
+                    <img src="./img/coffee.jpg" alt="deprofilo" style="height: 600px; width: auto; padding-left: 270px;">
+                </div>
+            </div>
+          </div>
+
+        </section>
+
+
+
+
 </main>
 <!--  ======================= End Main Area ================================ -->
 
@@ -255,6 +374,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-        <script src="/js/main.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
